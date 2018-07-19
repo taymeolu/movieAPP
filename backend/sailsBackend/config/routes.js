@@ -9,7 +9,7 @@
  */
 
 module.exports.routes = {
-  'get /add': 'MoviesController.add',
+  'get /search': 'MoviesController.search',
 
   /***************************************************************************
   *                                                                          *
