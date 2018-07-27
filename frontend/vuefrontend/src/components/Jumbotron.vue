@@ -9,17 +9,12 @@
         <b-row>
           <b-col sm="6" md="4" v-for="movie in movies" :key="movie.id">
             <img :src="movie.image" alt="" srcset="">
+            <p><a href="#">{{movie.title.toUpperCase()}}</a></p>
             <b-button>Only ₦{{movie.price}}!</b-button>
           </b-col>
         </b-row>
       </b-container>
     </div>
-    <!-- <ul>
-      <li v-for="movie in movies" :key="movie.id">
-        <img :src="movie.image" alt="" srcset="">
-      </li>
-    </ul> -->
-
   </div>
 </template>
 
@@ -65,5 +60,8 @@ img{
 }
 button{
   align-self: auto;
+}
+p{
+  text-align: center;
 }
 </style>

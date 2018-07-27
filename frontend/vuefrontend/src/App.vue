@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="body">
     <b-navbar toggleable="md" type="dark" variant="dark">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
@@ -21,7 +21,7 @@ export default {
 </script>
 
 <style scoped>
-  body{
-    background: #344957;
+  #body{
+    background-color: #344957;
   }
 </style>
