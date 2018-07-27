@@ -10,7 +10,7 @@
     "node-fetch": "^2.1.2",
     "nodemon": "^1.18.3",
     "sails": "^1.0.2",
-    "sails-hook-orm": "^2.0.0-16",
+    "sails-hook-orm": "^2.1.0",
     "sails-hook-sockets": "^1.4.0"
   },
   "devDependencies": {
