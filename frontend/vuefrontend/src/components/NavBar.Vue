@@ -1,5 +1,4 @@
 <template>
-  <div id="body">
     <b-navbar toggleable="md" type="dark" variant="dark">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
@@ -26,23 +25,16 @@
 
         </b-collapse>
     </b-navbar>
-    <Body></Body>
-  </div>
 </template>
 
 <script>
-import Body from './components/Body.vue'
-
 export default {
-  name: 'app',
-  components: {
-    Body,
-  }
+    name: 'NavBar',
 }
 </script>
 
 <style scoped>
-  #body{
-    background-color: #344957;
-  }
+
 </style>
+
+
